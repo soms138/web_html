@@ -1,0 +1,232 @@
+/* header */
+header {
+    width:1200px; height: 92px;
+    margin:0 auto;
+}
+header h1 {
+    width:60px; height: 70px;
+    float:left;
+    margin:11px 0 0 20px;
+}
+header h1 a {}
+header h1 a img {
+    width: 100%;
+}
+header nav {
+    float:left;
+    margin:39px 0 0 234px;
+}
+header nav ul {}
+header nav ul li {
+    float:left;
+}
+header nav ul li a {
+    padding-right:40px;
+    font-size:1.2rem;
+}
+header nav ul li:last-child a {
+    padding-right:0;
+}
+header nav ul .active a {
+    color: #36B4E5;
+}
+header .lnb {
+    float:right;
+    margin:39px 20px 0 0; 
+}
+header .lnb li {
+    float:left;
+    margin-right:20px;
+}
+header .lnb li:last-child {
+    margin-right:0;
+}
+header .lnb li a {
+    font-size:1.2rem;
+}
+header .lnb li span {
+    width:1px; height:13px;
+    display:block;
+    margin-top:3px;
+}
+/* main */
+main {}
+main .breadcrumbs_bg {
+    background-color: #F1F1F1;
+    border:1px solid #aaa;
+    border-left:0;
+    border-right:0;
+}
+main .breadcrumbs_bg .breadcrumbs {
+    width:1200px; 
+    margin:0 auto;
+    height: 58px;
+    padding: 23px 20px 0 0;
+    text-align: right;
+}
+main .breadcrumbs_bg .breadcrumbs a {}
+main .breadcrumbs_bg .breadcrumbs em {
+    font-weight: 700;
+}
+main .contents1 {
+    width:1200px; 
+    margin:0 auto;
+    text-align: center;
+    padding:70px 0;
+}
+main .contents1 h1 {
+    font-size: 2.074rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+}
+main .contents1 p {
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+}
+main .c2_bg {background-color:#f1f1f1;}
+main .c2_bg .contents2 {
+    width:1200px; 
+    margin:0 auto;
+    text-align: center;
+    padding:70px 0;
+}
+main .c2_bg .contents2 p {
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+    line-height: 35px;
+}
+main .contents3 {
+    width:1200px; 
+    margin:0 auto;
+    text-align: center;
+    padding:70px 0;
+}
+main .contents3 h2 {
+    font-size: 2.074rem;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color:#36B4E5;
+}
+main .contents3 h2+p {
+    font-size: 1.728rem;
+    line-height: 45px;
+    letter-spacing: -0.02em;
+}
+main .contents3 p:nth-child(2) {
+    margin-bottom: 50px;
+}
+main .c4_bg {
+    background-color: #f1f1f1;
+}
+main .c4_bg .contents4 {
+    width:1200px; 
+    margin:0 auto;
+    text-align: center;
+    padding:70px 0;
+    letter-spacing: -0.02em;
+}
+main .c4_bg .contents4 h2 {
+    font-size: 2.074rem;
+    font-weight: 500;
+}
+main .c4_bg .contents4 ul:nth-child(2) {}
+main .c4_bg .contents4 ul:nth-child(2) li {
+    background-color: #fff;
+    font-size: 2.074rem;
+    letter-spacing: -0.02em;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-left: -15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+main .c4_bg .contents4 ul:nth-child(2) li:nth-child(1) {
+    background-color: #36B4E5;
+}
+main .c4_bg .contents4 ul:nth-child(2) li:nth-child(3) {
+    background-color: #F3C300;
+}
+main .c4_bg .contents4 h2 {
+    font-size: 2.074rem;
+    margin-bottom: 60px;
+    clear:both;
+}
+main .c4_bg .contents4 ul:nth-child(4) {
+    display: inline-block;
+}
+main .c4_bg .contents4 ul:nth-child(4) li {
+    width: 180px;
+    height: 180px;
+    line-height: 180px;
+    float:left;
+    border-radius: 50%;
+    background-color: #fff;
+    padding-top:58px;
+    margin-left: -10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+main .c4_bg .contents4 ul:nth-child(4) li h3 {
+    font-size: 1.2rem;
+    margin-bottom:15px;
+    font-weight: 500;
+}
+main .c4_bg .contents4 ul:nth-child(4) li p {
+    line-height:23px;
+}
+/* footer */
+footer {
+    width:1200px; 
+    margin:0 auto;
+}
+footer .f_top {
+    height: 60px;
+    padding:13px 0;
+    letter-spacing: -0.02em;
+}
+footer .f_top .fnb {
+    float:left;
+    margin-top: 10px;
+}
+footer .f_top .fnb li {
+    float:left;
+    padding-right: 30px;
+}
+footer .f_top .fnb li:last-child{
+    padding-right: 0;
+}
+footer .f_top .fnb li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+footer .f_top .site {
+    float:right;
+}
+footer .f_top .site li {
+    float:left;
+    padding:10px 20px;
+    border:1px solid #f1f1f1;
+}
+footer .f_top .site li:nth-child(1) {
+    margin-right: 10px;
+}
+footer .f_top .site li a {
+    font-size: 1.2rem;
+}
+footer .f_btm {
+    padding:70px 0;
+}
+footer .f_btm address {
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+footer .f_btm p {
+    font-size: 1.2rem;
+    letter-spacing: -0.02em;
+}
