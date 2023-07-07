@@ -10,12 +10,15 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <!-- 외부스타일 -->
-    <!-- <link href="./style/reset.css" rel="stylesheet"> -->
+    <link href="./style/reset.css" rel="stylesheet">
+    <link href="./style/style.css" rel="stylesheet">
     <style>
 
     </style>
 </head>
 <body>
+    <!-- 팝업요소 -->
+    <a href="#" id="top"><img src="./img/icon_controls/btn_top.png" alt="위로가기"></a>
     <header>
         <div id="h_top">
             <div class="left">
@@ -47,7 +50,7 @@
                     <button type="submit" id="search_btn"><img src="./img/sprite/search.png" alt="검색버튼"></button>
                 </fieldset>
             </form>
-            <div class="lang">
+            <div class="h_btm_r">
                 <form action="#" method="get" id="lang_frm">
                     <fieldset>
                         <legend>언어선택양식</legend>
@@ -58,10 +61,10 @@
                         <button type="submit" id="lang_btn">GO</button>
                     </fieldset>
                 </form>
-            </div>
-            <div class="weather">
-                <p class="current_weather"><em>27.5</em></p>
-                <p class="current_dust">미세먼지(좋음) 초미세먼지(보통)</p>
+                <div class="weather">
+                    <p class="current_weather"><em>27.5℃</em></p>
+                    <p class="current_dust">미세먼지(좋음) 초미세먼지(보통)</p>
+                </div>
             </div>
         </div>
     </header>
@@ -139,7 +142,7 @@
             </div>
         </section>
         <div class="bnr_bg"> <!-- 100% full bg -->
-            <section class="middle_bnr"> <!-- w1152px -->
+            <section class="bnr"> <!-- w1152px -->
                 <a href="#"><img src="./img/banner_01.jpg" alt="서울시민 누구나 코로나19 선제검사 신청"></a>
                 <a href="#"><img src="./img/banner_02.jpg" alt="코로나19 신고센터 집단감염 위험 준수사항 위반 신고"></a>
                 <a href="#"><img src="./img/banner_03.jpg" alt="한눈에 보는 코로나19 생활경제 지원 정책"></a>
