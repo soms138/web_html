@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>test</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <style>
+        html,body {
+            background: aqua url(./img/news_img08.jpg) no-repeat fixed center bottom;
+            background-size: 700px;
+            height: 200%;
+        }
+        #bg {
+            background-color: rgba(255,255,255,0.8);
+            position:relative;
+        }
+        #bg p {
+            background: yellow url(./img/news_img02.jpg) no-repeat;
+            width: 400px; height: 200px;
+            border:5px solid black;
+        }
+        #bg p:nth-child(2) {
+            border-color: red;
+            position: relative;
+            left: 100px;
+        }
+        #bg p:last-child {
+            background-repeat: repeat-x;
+            position: absolute;
+            right: 0; bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    <h1>Vs code Emmet</h1>
+    <p><em>부모>자식</em></p>
+    <p><span>1</span><span>2</span></p>
+    <p>
+        동일 관계(형제)의 요소를 2개 이상 제작하고 싶을 땐 곱하기를 붙여서 Emmet 기능을 실행한다.
+    </p>
+
+    <p>ul>li*4>a</p>
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    
+    <p>div>p*5</p>
+    <div>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+    </div>
+    
+    <p>header>h1+nav+p</p>
+    <header>
+        <h1></h1>
+        <nav></nav>
+        <p></p>
+    </header>
+
+    <p>.test>p>em</p>
+    <div class="test">
+        <p><em></em></p>
+    </div>
+
+    <p>#box>.contents>h1+p</p>
+    <div id="box">
+        <div class="contents">
+            <h1></h1>
+            <p></p>
+        </div>
+    </div>
+
+    <img src="./img/banner_01.jpg" alt="서울시청">
+    <video src="#"></video>
+    <form action="#" method="post"></form>
+    <input type="text">
+    <button></button>
+    <button type="submit"></button>
+    <label for=""><input type="checkbox" name="" id=""></label>
+
+    <p>table>thead>tr>th*2</p>
+    <p>tbody>tr>td*2</p>
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <!-- div.h_btm_r>form:post#lang_frm+div.weather -->
+    <div class="h_btm_r">
+        <form action="" method="post" id="lang_frm">
+            <!-- fieldset>legend+select+button:submit#lang_btn -->
+            <fieldset>
+                <legend></legend>
+                <select name="" id="">
+                    <!-- option*2 -->
+                <option value=""></option>
+                <option value=""></option>
+                </select>
+                <button type="submit" id="lang_btn"></button>
+            </fieldset>
+        </form>
+        <div class="weather">
+            <!-- p.current_weather+p.current_dust -->
+            <p class="current_weather"></p>
+            <p class="current_dust"></p>
+        </div>
+    </div>
+</body>
+</html>
