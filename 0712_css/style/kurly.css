@@ -1,0 +1,109 @@
+/* rgb(95 3 128) */
+/* width:1050px */
+/* all layout */
+.top_bnr_bg .top_bnr,header {
+    background-color:lightblue;
+    margin:0 auto; 
+    width: 1050px;
+}
+/* header-sprite 공통그룹선택자 */
+header .mid .logo h1,
+header .mid .lnb a,
+header .mid #search_frm fieldset #search_btn,
+header .menu_btm .all_nav .menu {
+    background: pink url(../images/kurly_img/icon_set.png) no-repeat;
+    width: 36px; height: 36px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+/* top bnr */
+.top_bnr_bg {background-color: rgb(95 3 128);}
+.top_bnr_bg .top_bnr {
+    height: 42px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.top_bnr_bg .adver {
+    background-color: blue;
+    padding: 0 320px;
+}
+.top_bnr_bg .adver p {color: #fff;}
+.top_bnr_bg a p em {font-weight: 700;}
+.top_bnr_bg .close {position: absolute; right: 0; padding: 10px;}
+.top_bnr_bg .close .fa-xmark {color: #fff;}
+/* header */
+header {}
+header .user_lnb {
+    background-color:lightgoldenrodyellow;
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+header .user_lnb .join {}
+header .user_lnb .login {}
+header .user_lnb .customer_service {}
+header .mid {
+    background-color:lightgreen;
+    height: 63px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .mid .logo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+header .mid .logo h1 {
+    width: 82px; height: 42px;
+    background-position: 0 -158px;
+}
+header .mid .logo .market {}
+header .mid .logo .beauty {}
+header .mid #search_frm {
+    border:1px solid rgb(95 3 128);
+    border-radius: 5px; width: 400px;
+}
+header .mid #search_frm fieldset {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    padding: 5px 10px;
+}
+header .mid #search_frm fieldset #search_txt {
+    width: 300px;
+}
+header .mid #search_frm fieldset #search_btn {
+    background-position: 0 -122px;
+}
+header .mid .lnb {}
+header .mid .lnb a {}
+header .mid .lnb .map {background-position: 0 -86px;}
+header .mid .lnb .like {background-position: 0 -50px;}
+header .mid .lnb .cart {background-position: 0 -14px;}
+header .menu_btm {
+    background-color:lightsalmon;
+    height: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu_btm .all_nav {}
+header .menu_btm .all_nav .span {}
+header .menu_btm .all_nav .menu {
+    width: 16px; height: 14px;
+    background-position: 0 0;
+}
+header .menu_btm nav {}
+header .menu_btm nav a {}
+header .menu_btm .delivery_info {}
+header .menu_btm .delivery_info em {}
+header .menu_btm .delivery_info em .fa-circle {}
+header .menu_btm .delivery_info span {}
